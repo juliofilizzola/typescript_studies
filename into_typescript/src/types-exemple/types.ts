@@ -12,3 +12,10 @@ let arrayNumber2: number[] = [1, 2, 3];
 let arrayString1: Array<string> = ['a', 'b'];
 let arrayString2: string[] = ['a', 'b'];
 
+// #object
+
+let person: {name: string, age: number, aldut?: boolean} = {
+  age: 31,
+  name: 'Julio'
+};
+
