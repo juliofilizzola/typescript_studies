@@ -8,6 +8,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -19,5 +20,20 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  rules: {},
+  rules: {
+    indent: ['error', 2],
+    'max-lines': ['error', { max: 100 }],
+    'linebreak-style': 0,
+    semi: ['error', 'always'],
+    'no-magic-numbers': [
+      'error',
+      {
+        ignore: [0, 1, 2, 100],
+        ignoreArrayIndexes: true,
+        enforceConst: true,
+        detectObjects: false,
+      },
+    ],
+    'no-console': ['off'],
+  },
 };

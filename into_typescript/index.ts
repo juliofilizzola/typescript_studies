@@ -1,1 +1,2 @@
-const nameF = 'J';
+const nameF = 'xablau';
+console.log(nameF);
