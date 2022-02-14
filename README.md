@@ -6,4 +6,4 @@ O Repositório é baseado no curso de TypeScript do Otávio de Miranda: [Link pa
 ### **INDICE**
 Tema | Diretório
 ---|---
-Introdução aos tipos em TS | [Intro_ts]()
+Introdução aos tipos em TS | [@types]()
