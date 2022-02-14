@@ -19,3 +19,10 @@ let person: {name: string, age: number, aldut?: boolean} = {
   name: 'Julio'
 };
 
+// #funções
+
+function soma(x: number, y: number): number {
+  return x+y;
+};
+
+const soma2: (x: number, y:number) => number = (x, y) => x+y;
