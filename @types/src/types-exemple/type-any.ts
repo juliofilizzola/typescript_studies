@@ -1,4 +1,4 @@
-function showMessage(msg: any): any {
+function showMessage(msg: any) {
   // => não apresente o tipo any, o codigo vai dar error.
   return msg;
 }
