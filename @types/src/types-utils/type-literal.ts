@@ -1,4 +1,5 @@
-let x = 10; // eslint-disable-line
+/* eslint-disable */
+let x = 10;
 // o Typescritp inferiu a variavel x como number por isso podemos modificar ela para qualquer valor de numero, mas não podemos mudar para uma string, por exemplo
 
 x = 100;
