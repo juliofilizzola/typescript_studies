@@ -100,5 +100,5 @@
   },
   "include": [
     "./src"
-  ]
+, "webpack.config.js"  ]
 }
