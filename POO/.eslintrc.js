@@ -5,28 +5,28 @@ module.exports = {
     node: true,
   },
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
   ],
   globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
   },
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 11,
-    sourceType: 'module',
+    sourceType: "module",
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ["@typescript-eslint"],
   rules: {
-    indent: ['error', 2],
-    'max-lines': ['error', { max: 100 }],
-    'linebreak-style': 0,
-    semi: ['error', 'always'],
-    'no-magic-numbers': [
-      'error',
+    indent: ["error", 2],
+    "max-lines": ["error", { max: 100 }],
+    "linebreak-style": 0,
+    semi: ["error", "always"],
+    "no-magic-numbers": [
+      "error",
       {
         ignore: [0, 1, 2, 100],
         ignoreArrayIndexes: true,
@@ -34,6 +34,6 @@ module.exports = {
         detectObjects: false,
       },
     ],
-    'no-console': ['off'],
+    "no-console": ["off"],
   },
 };
