@@ -1,12 +1,12 @@
 const magicNumber1 = 900;
 const magicNumber2 = 900;
 
-let x: unknown;
-x = 100;
-x = 'xablau';
-x = magicNumber1;
-x = magicNumber2;
+let valor: unknown;
+valor = 100;
+valor = 'xablau';
+valor = magicNumber1;
+valor = magicNumber2;
 
-const y = 800;
+const valueNumber = 800;
 
-if (typeof x === 'number') console.log(x + y);
+if (typeof valor === 'number') console.log(valor + valueNumber);

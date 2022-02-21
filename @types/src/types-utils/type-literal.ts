@@ -4,6 +4,6 @@ let x = 10;
 
 x = 100;
 
-x = 'xablau';
+// x = 'xablau';
 
 const y = 10; // o typeScript inferiu para um tipo literal (no caso o tipo 10)
