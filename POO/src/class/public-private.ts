@@ -1,6 +1,7 @@
 export class Empressa {
   public readonly name: string;
-  // o metodo public pode ser utilizado (visto) por outras class em qualquer parte do projeto.
+  // o metodo public pode ser utilizado (visto) pela propia class, e suas subclass.
+  // caso nada seja declarodo o metodo public é implicito
   private readonly colaboradores: Colaborador[] = [];
   protected readonly cnpj: string;
 
