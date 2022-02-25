@@ -7,3 +7,4 @@ O Repositório é baseado no curso de TypeScript do Otávio de Miranda: [Link pa
 Tema | Diretório
 ---|---
 Introdução aos tipos em TS | [@types](https://github.com/juliofilizzola/typescript_studies/tree/main/@types)
+Introdução a POO | [POO](https://github.com/juliofilizzola/typescript_studies/tree/main/poo)
