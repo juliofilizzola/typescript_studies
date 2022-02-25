@@ -1,41 +1,34 @@
-export class Empressa {
-  public readonly name: string;
-  // o metodo public pode ser utilizado (visto) pela propia class, e suas subclass.
-  // caso nada seja declarodo o metodo public é implicito
-  protected readonly colaboradores: Colaborador[] = [];
-  protected readonly cnpj: string;
-
-  constructor(name: string, cnpj: string) {
-    this.name = name;
-    this.cnpj = cnpj;
-  }
-
-  adicionarColaboradores(colaborador: Colaborador): void {
-    this.colaboradores.push(colaborador);
-  }
-
-  mostrarColaboradores(): void {
-    for (const colaborador of this.colaboradores) {
-      console.log(colaborador);
-    }
-  }
-}
-
-export class Colaborador {
+export class person {
   constructor(
-    public readonly name: string,
-    public readonly sobrenome: string,
+    public name: string,
+    public lastName: string,
+    private age: number,
+    protected cpf: string,
   ) {}
-}
 
-export class udemy extends Empressa {
-  adicionarColaboradores(colaborador: Colaborador): void {
-    this.colaboradores.push(colaborador);
+  getAge(): number {
+    return this.age;
+  }
+
+  getCPF(): string {
+    return this.cpf;
+  }
+
+  getFullName(): string {
+    return `${this.name} ${this.lastName}`;
   }
 }
 
-const empresa1 = new Empressa('Filizzola.end', '1234545/32321');
+export class Studient extends person {
+  getFullName(): string {
+    return `${this.name} Ronaldo ${this.lastName}`;
+  }
+}
+export class Client extends person {}
+const age = 25;
+const studient = new Studient('Julio', 'Filizzola', age, '01798258523');
+const client = new Client('Elias', 'Stanik', age, '01798258523');
 
-console.log(empresa1);
-
-console.log(empresa1.name);
+// console.log(studient);
+console.log(studient.getFullName());
+console.log(client.getFullName());
