@@ -1,4 +1,4 @@
-export class person {
+export class Person {
   constructor(
     public name: string,
     public lastName: string,
@@ -15,7 +15,7 @@ export class person {
   }
 }
 const ageA = 34;
-const personA = new person('Julio', 'Fili', ageA, '123.456.789.12');
+const personA = new Person('Julio', 'Fili', ageA, '123.456.789.12');
 
 console.log(personA);
 

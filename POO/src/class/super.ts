@@ -1,4 +1,4 @@
-export class person {
+export class Person {
   constructor(
     public name: string,
     public lastName: string,
@@ -19,14 +19,14 @@ export class person {
   }
 }
 
-export class Studient extends person {
+export class Studient extends Person {
   getFullName(): string {
     console.log('fazendo algo');
 
     return super.getFullName();
   }
 }
-export class Client extends person {}
+export class Client extends Person {}
 const age = 25;
 const studient = new Studient('Julio', 'Filizzola', age, '01798258523');
 const client = new Client('Elias', 'Stanik', age, '01798258523');
