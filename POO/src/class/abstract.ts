@@ -13,17 +13,17 @@ export abstract class Person {
     this.life - powerAttack;
   }
 
-  abstract border(): void;
+  abstract staff(): void;
 }
 
 export class Guerreira extends Person {
-  border() {
+  staff() {
     console.log('pelos poderes de...');
   }
 }
 
 export class Monster extends Person {
-  border() {
+  staff() {
     console.log('Morra Seiya!!!!!');
   }
 }
