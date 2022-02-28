@@ -11,4 +11,9 @@ export class Database {
 }
 
 const db1 = new Database('localhost', 'root', '12341');
-console.log(db1);
+db1.connect(); // primeira instancia do banco de dados.
+
+const db2 = new Database('localhost', 'root', '12341');
+db2.connect(); // mais uma instancia do banco de dados.
+
+console.log(db1 === db2); // verificando se os dois são iguais.
