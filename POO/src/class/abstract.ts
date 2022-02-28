@@ -1,4 +1,4 @@
-export class Person {
+export abstract class Person {
   constructor(
     protected name: string,
     protected attack: number,
@@ -13,9 +13,7 @@ export class Person {
     this.life - powerAttack;
   }
 
-  border() {
-    console.log('Bordão');
-  }
+  abstract border(): void;
 }
 
 export class Guerreira extends Person {
