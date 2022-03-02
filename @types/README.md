@@ -21,3 +21,7 @@ Nesse diretorio, está os exemplos basicos de tipagem do Typescript.
 | Tipo Alias            | [Tipo Alias](https://github.com/juliofilizzola/typescript_studies/blob/main/%40types/src/types-utils/type-alias.ts) |
 | Tipo Assertions       | [Tipo Assertions](https://github.com/juliofilizzola/typescript_studies/blob/main/%40types/src/types-utils/type-Assertuions.ts) |
 | Tipo Intersection     | [Tipo Intersection](https://github.com/juliofilizzola/typescript_studies/blob/main/%40types/src/types-utils/type-intersection.ts) |
+| Type Union            | [Tipo Union](https://github.com/juliofilizzola/typescript_studies/blob/main/%40types/src/types-utils/type-union.ts) |
+| Type Literal          | [Tipo Literal](https://github.com/juliofilizzola/typescript_studies/blob/main/%40types/src/types-utils/type-literal.ts) |
+| Type Functions        | [Tipo Função](https://github.com/juliofilizzola/typescript_studies/blob/main/%40types/src/type-function/type-function.ts) |
+| Webpack               | [Webpack](https://github.com/juliofilizzola/typescript_studies/blob/main/%40types/src/webpack/index.ts) |
