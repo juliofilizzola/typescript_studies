@@ -1,0 +1,19 @@
+{
+  "name": "generic",
+  "version": "1.0.0",
+  "description": "Diretorio de exemplos de Generic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliofilizzola/typescript_studies.git"
+  },
+  "author": "Julio Filizzola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliofilizzola/typescript_studies/issues"
+  },
+  "homepage": "https://github.com/juliofilizzola/typescript_studies#readme"
+}
