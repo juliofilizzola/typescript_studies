@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/juliofilizzola/typescript_studies/issues"
   },
-  "homepage": "https://github.com/juliofilizzola/typescript_studies#readme"
+  "homepage": "https://github.com/juliofilizzola/typescript_studies#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
 }
