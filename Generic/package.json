@@ -1,0 +1,32 @@
+{
+  "name": "generic",
+  "version": "1.0.0",
+  "description": "Diretorio de exemplos de Generic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliofilizzola/typescript_studies.git"
+  },
+  "author": "Julio Filizzola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliofilizzola/typescript_studies/issues"
+  },
+  "homepage": "https://github.com/juliofilizzola/typescript_studies#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "tslib": "^2.3.1"
+  },
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
