@@ -1,4 +1,6 @@
-function invertedColor<T extends new (...args: any[]) => any>(target: T) {
+import { Constructor } from '../dto/class';
+
+function invertedColor<T extends Constructor>(target: T) {
   return class extends target {
     cor: string;
     constructor(...args: any[]) {

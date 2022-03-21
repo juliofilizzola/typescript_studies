@@ -1,5 +1,7 @@
+import { Constructor } from '../dto/class';
+
 function decoratorParameter(param1: string, param2: string) {
-  return function <T extends new (...args: any[]) => any>(target: T) {
+  return function (target: Constructor) {
     return class extends target {
       color: string;
       colorType: string;
