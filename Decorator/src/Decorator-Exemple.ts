@@ -1,4 +1,5 @@
-export class Animal {
+@decorator
+export class SelectColor {
   constructor(public cor: string) {}
 }
 
@@ -7,16 +8,14 @@ function decorator<T extends new (...args: any[]) => any>(target: T) {
     cor: string;
     constructor(...args: any[]) {
       super(...args);
-      this.cor = 'qualquer coisa';
+      this.cor = args[0];
     }
   };
 }
 
-const AnimalDecorated = decorator(Animal);
-
-const animal = new AnimalDecorated('red');
-const animal2 = new AnimalDecorated('rexab');
-const animal3 = new AnimalDecorated('casa');
-console.log(animal);
-console.log(animal2);
-console.log(animal3);
+const selectColor = new SelectColor('red');
+const SelectColor2 = new SelectColor('green');
+const SelectColor3 = new SelectColor('blue');
+console.log(selectColor);
+console.log(SelectColor2);
+console.log(SelectColor3);
