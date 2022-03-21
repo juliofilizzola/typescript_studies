@@ -1,16 +1,8 @@
+import invertedColor from './dacorator/invertedColor';
+
 @invertedColor
 export class SelectColor {
   constructor(public cor: string) {}
-}
-
-function invertedColor<T extends new (...args: any[]) => any>(target: T) {
-  return class extends target {
-    cor: string;
-    constructor(...args: any[]) {
-      super(...args);
-      this.cor = args[0].split('').reverse().join('');
-    }
-  };
 }
 
 const selectColor = new SelectColor('red');
