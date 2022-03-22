@@ -12,3 +12,4 @@ Aqui vou deixar meus códigos de estudos e comentários sobre o estudos de TypeS
 |Introdução a POO | [POO](https://github.com/juliofilizzola/typescript_studies/tree/main/poo)|
 |Tipos avançados | [Tipos avançados](https://github.com/juliofilizzola/typescript_studies/tree/main/AdvencedTypes)|
 |Generic | [Generic](https://github.com/juliofilizzola/typescript_studies/tree/main/Generic)|
+|Decorator| [Dacorator](https://github.com/juliofilizzola/typescript_studies/tree/main/Decorator)|
