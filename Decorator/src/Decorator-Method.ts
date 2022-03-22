@@ -1,4 +1,6 @@
-export class person {
+import decorator from './dacorator/method';
+
+export class Person {
   private name: string;
   private lastName: string;
   private age: number;
@@ -9,6 +11,7 @@ export class person {
     this.age = age;
   }
 
+  @decorator
   method(msg: string): string {
     return `${this.FullName}: ${msg}`;
   }
@@ -27,3 +30,10 @@ export class person {
     this.lastName = work.join(' ');
   }
 }
+
+const age = 26;
+
+const person = new Person('Julio', 'Filizzola', age);
+person.method = () => 'XABLAYU';
+const method = person.method('Hello Word!!');
+console.log(method);
