@@ -15,5 +15,3 @@ console.log(MyNamespace.name);
 console.log(MyNamespace.OutroNamespace.nameDoNamespace);
 
 console.log(namespace);
-
-export default 1;
