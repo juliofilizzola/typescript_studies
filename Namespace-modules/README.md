@@ -6,10 +6,7 @@ Nesse diretório está os exemplos Namespace e exemplos de uso e Modules.
 
 | Descrição | Arquivo |
 |-----------|---------|
-|Generic | [Generic](https://github.com/juliofilizzola/typescript_studies/blob/main/Generic/src/generic/generic.ts)|
-|Generic Promises| [Generic-Promises](https://github.com/juliofilizzola/typescript_studies/blob/main/Generic/src/generic/generic-promise.ts)|
-| Interface/Type Alias | [Interface/Type Alias](https://github.com/juliofilizzola/typescript_studies/blob/main/Generic/src/generic/interface-type-alias.ts)|
-|Intersection | [Intersection](https://github.com/juliofilizzola/typescript_studies/blob/main/Generic/src/generic/intersection.ts)|
-|Pilha | [Pilha](https://github.com/juliofilizzola/typescript_studies/blob/main/Generic/src/generic/pilha.ts)|
-|Predicate | [Predicate](https://github.com/juliofilizzola/typescript_studies/blob/main/Generic/src/generic/predicate.ts)|
-|Restrictions | [Restrictions](https://github.com/juliofilizzola/typescript_studies/blob/main/Generic/src/generic/restrictions.ts)|
+|Modules | [Modules](https://github.com/juliofilizzola/typescript_studies/blob/main/Namespace-modules/src/modules.ts)|
+|Namespace | [Namespace](https://github.com/juliofilizzola/typescript_studies/blob/main/Namespace-modules/src/Namespace.ts)|
+|Exemplo d.ts | [Exemplo d.ts](https://github.com/juliofilizzola/typescript_studies/blob/main/Namespace-modules/src/exemplo.d.ts)|
+|Build | [Build](https://github.com/juliofilizzola/typescript_studies/tree/main/Namespace-modules/src/build)|
