@@ -1,5 +1,5 @@
-import { CartItem } from "../dto/cart-items";
-import { OrderStatus } from "../dto/ordem-status";
+import { CartItem } from '../dto/cart-items';
+import { OrderStatus } from '../dto/ordem-status';
 
 export class ShoppingCartLegacy {
   private readonly _items: CartItem[] = [];
@@ -22,7 +22,9 @@ export class ShoppingCartLegacy {
   }
 
   total(): number {
-    return +this._items.reduce((total, next) => total + next.price, 0).toFixed(2);
+    return +this._items
+      .reduce((total, next) => total + next.price, 0)
+      .toFixed(2);
   }
 
   checkout(): void {
@@ -35,7 +37,7 @@ export class ShoppingCartLegacy {
     this.clear();
   }
 
-  isEmpty(): boolean{
+  isEmpty(): boolean {
     return this._items.length === 0;
   }
 
