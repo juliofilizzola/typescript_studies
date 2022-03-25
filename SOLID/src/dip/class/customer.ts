@@ -1,15 +1,17 @@
 import {
   CustomerOrder,
   EnterpriseCustomerProtocol,
-  IndividualCustomerProtocol
-} from './interfaces/customer';
+  IndividualCustomerProtocol,
+} from '../../dto/costomers-protocols';
 
-export class IndividualCustomer implements IndividualCustomerProtocol, CustomerOrder {
+export class IndividualCustomer
+  implements IndividualCustomerProtocol, CustomerOrder
+{
   firstName: string;
   lastName: string;
   cpf: string;
 
-  constructor (firstName: string, lastName: string, cpf: string) {
+  constructor(firstName: string, lastName: string, cpf: string) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.cpf = cpf;
@@ -22,10 +24,11 @@ export class IndividualCustomer implements IndividualCustomerProtocol, CustomerO
   getIDN(): string {
     return this.cpf;
   }
-
 }
 
-export class EnterpriseCustomer implements EnterpriseCustomer, CustomerOrder {
+export class EnterpriseCustomer
+  implements EnterpriseCustomerProtocol, CustomerOrder
+{
   name: string;
   cnpj: string;
 
@@ -41,5 +44,4 @@ export class EnterpriseCustomer implements EnterpriseCustomer, CustomerOrder {
   getIDN(): string {
     return this.cnpj;
   }
-
 }

@@ -1,6 +1,6 @@
-import { Discount } from "./discount";
-import { CartItem } from "./interfaces/cart-item";
-import { IShoppingCart } from "./interfaces/Shopping-cart";
+import { Discount } from './discount';
+import { CartItem } from '../../dto/cart-items';
+import { IShoppingCart } from '../../dto/shoppingCart';
 
 export class ShoppingCart implements IShoppingCart {
   private readonly _items: CartItem[] = [];
@@ -20,14 +20,16 @@ export class ShoppingCart implements IShoppingCart {
   }
 
   total(): number {
-    return +this._items.reduce((total, next) => total + next.price, 0).toFixed(2);
+    return +this._items
+      .reduce((total, next) => total + next.price, 0)
+      .toFixed(2);
   }
 
   totalWithDiscount(): number {
     return this.discount.calculate(this.total());
   }
 
-  isEmpty(): boolean{
+  isEmpty(): boolean {
     return this._items.length === 0;
   }
 
