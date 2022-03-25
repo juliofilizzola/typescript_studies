@@ -14,3 +14,4 @@ Aqui vou deixar meus códigos de estudos e comentários sobre o estudos de TypeS
 |Generic | [Generic](https://github.com/juliofilizzola/typescript_studies/tree/main/Generic)|
 |Decorator| [Dacorator](https://github.com/juliofilizzola/typescript_studies/tree/main/Decorator)|
 |Namespace e Module| [Namespace e Module](https://github.com/juliofilizzola/typescript_studies/tree/main/Namespace-modules)|
+|S.O.L.I.D| [S.O.L.I.D](https://github.com/juliofilizzola/typescript_studies/tree/main/SOLID)|
