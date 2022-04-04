@@ -5,6 +5,8 @@ O Repositório é baseado no curso de TypeScript do Otávio de Miranda: [Link pa
 
 Aqui vou deixar meus códigos de estudos e comentários sobre o estudos de TypeScript.
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliofilizzola&repo=typescript_studies)](https://github.com/juliofilizzola/typescript_studies/)
+
 ### **INDICE**
 | Tema | Diretório |
 |------|-----------|
