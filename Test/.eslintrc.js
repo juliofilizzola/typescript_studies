@@ -23,7 +23,7 @@ module.exports = {
   rules: {
     quotes: ['error', 'single'],
     indent: ['error', 2],
-    'max-lines': ['error', { max: 100 }],
+    'max-lines': ['error', { max: 180 }],
     'linebreak-style': 0,
     semi: ['error', 'always'],
     'no-magic-numbers': [
