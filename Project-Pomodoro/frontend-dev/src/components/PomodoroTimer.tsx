@@ -1,15 +1,30 @@
 import React, { useState } from 'react';
 import { useInterval } from '../hooks/useInterval';
 import { secondsTotime } from '../utils/secondsToTime';
+import { Button } from './Botton';
 import { IPomodoroProps } from './dto/PomodoroTimer';
 
 export function PomodoroTimer(props: IPomodoroProps): JSX.Element {
   const [mainTime, setMainTime] = useState(props.defualtPomodoroTimer);
+  const [timeCount, setTimeCout] = useState(false);
+  const [work, setWork] = useState(false);
+
   const numberInterval = 1000;
+  const interval = timeCount ? numberInterval : null;
 
   useInterval(() => {
     setMainTime(mainTime - 1);
-  }, numberInterval);
+  }, interval);
 
-  return <div>Olá, Mundo! {secondsTotime(mainTime)}</div>;
+  const configureWork = () => {
+    setTimeCout(!timeCount);
+    setWork(!work);
+  };
+
+  return (
+    <>
+      <Button text={'Parar Contador'} onClick={() => configureWork()} />
+      <div>Olá, Mundo! {secondsTotime(mainTime)}</div>
+    </>
+  );
 }
