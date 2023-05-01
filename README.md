@@ -7,6 +7,7 @@ Aqui vou deixar meus códigos de estudos e comentários sobre o estudos de TypeS
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=juliofilizzola&repo=typescript_studies)](https://github.com/juliofilizzola/typescript_studies/)
 
+
 ### **INDICE**
 | Tema | Diretório |
 |------|-----------|
